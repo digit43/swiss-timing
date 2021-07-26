@@ -1,0 +1,98 @@
+.athlete-xml {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 40px;
+}
+.athlete-xml h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.xml-card__key {
+    display: flex;
+    margin-top: 10px;
+}
+
+.xml-card__key-value {
+    width: 70%;
+}
+
+.xml-card__key-label {
+    font-weight: 600;
+    width: 30%;
+}
+
+.parser-legend {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.parser-legend h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.parser-legend__info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.parser-legend__info-title {
+    font-weight: bold;
+    width:  30%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.parser-legend__info-value {
+    width: 70%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.discipline-desc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.discipline-desc h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.discipline-desc__container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.discipline-desc__item {
+    display: flex;
+    margin-top: 10px;
+}
+
+.discipline-desc__item-title {
+    width: 30%;
+    font-weight: 600;
+}
+
+.discipline-desc__item-value {
+    width: 70%;
+}
+
+.athletes-data {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
